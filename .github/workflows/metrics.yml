@@ -14,14 +14,16 @@ jobs:
       contents: write
     steps:
       - name: Generate language metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: NooruzbekT
           base: ""
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout: 30
           plugin_languages_limit: 8
           plugin_languages_threshold: 0%
+          plugin_languages_details: percentage
+          plugin_languages_indepth: yes
           plugin_languages_colors: github
           filename: languages-metrics.svg
