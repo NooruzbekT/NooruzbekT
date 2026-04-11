@@ -13,17 +13,25 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate language metrics
-        uses: lowlighter/metrics@v3.34
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: NooruzbekT
-          base: ""
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 30
-          plugin_languages_limit: 8
-          plugin_languages_threshold: 0%
-          plugin_languages_details: percentage
-          plugin_languages_indepth: yes
-          plugin_languages_colors: github
-          filename: languages-metrics.svg
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate language stats SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/generate_stats.py
+
+      - name: Commit and push SVG
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add languages-metrics.svg
+          git diff --staged --quiet || git commit -m "Update language stats [skip ci]"
+          git push
