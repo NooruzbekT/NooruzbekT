@@ -9,5 +9,5 @@
 
 <h3 align="left">Most Used Languages:</h3>
 <p align="left">
-  <img src="./languages-metrics.svg" alt="Top Languages" />
+  <img src="./lang-stats.svg" alt="Top Languages" />
 </p>

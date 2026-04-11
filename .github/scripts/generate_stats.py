@@ -111,7 +111,7 @@ def main():
         return
 
     svg = generate_svg(dict(lang_bytes))
-    with open('languages-metrics.svg', 'w') as f:
+    with open('lang-stats.svg', 'w') as f:
         f.write(svg)
     print(f"Done: {len(lang_bytes)} languages found")
 

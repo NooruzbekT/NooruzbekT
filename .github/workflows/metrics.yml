@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add languages-metrics.svg
+          git add lang-stats.svg
           git diff --staged --quiet || git commit -m "Update language stats [skip ci]"
           git push
