@@ -9,5 +9,5 @@
 
 <h3 align="left">Most Used Languages:</h3>
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NooruzbekT&layout=compact&langs_count=8&hide_border=true" alt="Top Languages" />
+  <img src="./languages-metrics.svg" alt="Top Languages" />
 </p>
