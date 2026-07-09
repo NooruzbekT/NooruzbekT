@@ -1,41 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="312" viewBox="0 0 495 312">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="287" viewBox="0 0 495 287" fill="none">
 <style>
-  .title { font: 600 17px "Segoe UI", Ubuntu, Sans-Serif; fill: #58a6ff; }
+  .title { font: 600 18px "Segoe UI", Ubuntu, Sans-Serif; fill: #58a6ff; }
   .lang-name { font: 400 13px "Segoe UI", Ubuntu, Sans-Serif; fill: #e6edf3; }
-  .lang-pct { font: 600 13px "Segoe UI", Ubuntu, Sans-Serif; fill: #8b949e; }
+  .lang-pct { font: 700 13px "Segoe UI", Ubuntu, Sans-Serif; fill: #8b949e; }
+  @keyframes fadein { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+  .row { animation: fadein 0.5s ease forwards; opacity: 0; }
 </style>
-<rect x="0.5" y="0.5" rx="10" ry="10" height="311" width="494" fill="#0d1117" stroke="#30363d"/>
-<text x="20" y="27" class="title">Most Used Languages</text>
-<rect x="20" y="40" width="292" height="10" rx="3" fill="#DA5B0B"/>
-<rect x="312" y="40" width="70" height="10" rx="3" fill="#3572A5"/>
-<rect x="382" y="40" width="53" height="10" rx="3" fill="#f1e05a"/>
-<rect x="435" y="40" width="21" height="10" rx="3" fill="#563d7c"/>
-<rect x="456" y="40" width="10" height="10" rx="3" fill="#b07219"/>
-<rect x="466" y="40" width="8" height="10" rx="3" fill="#e34c26"/>
-<rect x="474" y="40" width="2" height="10" rx="3" fill="#8f8f8f"/>
-<rect x="476" y="40" width="2" height="10" rx="3" fill="#384d54"/>
-<circle cx="26" cy="73" r="5" fill="#DA5B0B"/>
-<text x="38" y="78" class="lang-name">Jupyter Notebook</text>
-<text x="475" y="78" text-anchor="end" class="lang-pct">64.1%</text>
-<circle cx="26" cy="101" r="5" fill="#3572A5"/>
-<text x="38" y="106" class="lang-name">Python</text>
-<text x="475" y="106" text-anchor="end" class="lang-pct">15.4%</text>
-<circle cx="26" cy="129" r="5" fill="#f1e05a"/>
-<text x="38" y="134" class="lang-name">JavaScript</text>
-<text x="475" y="134" text-anchor="end" class="lang-pct">11.8%</text>
-<circle cx="26" cy="157" r="5" fill="#563d7c"/>
-<text x="38" y="162" class="lang-name">CSS</text>
-<text x="475" y="162" text-anchor="end" class="lang-pct">4.5%</text>
-<circle cx="26" cy="185" r="5" fill="#b07219"/>
-<text x="38" y="190" class="lang-name">Java</text>
-<text x="475" y="190" text-anchor="end" class="lang-pct">2.2%</text>
-<circle cx="26" cy="213" r="5" fill="#e34c26"/>
-<text x="38" y="218" class="lang-name">HTML</text>
-<text x="475" y="218" text-anchor="end" class="lang-pct">1.8%</text>
-<circle cx="26" cy="241" r="5" fill="#8f8f8f"/>
-<text x="38" y="246" class="lang-name">Mermaid</text>
-<text x="475" y="246" text-anchor="end" class="lang-pct">0.1%</text>
-<circle cx="26" cy="269" r="5" fill="#384d54"/>
-<text x="38" y="274" class="lang-name">Dockerfile</text>
-<text x="475" y="274" text-anchor="end" class="lang-pct">0.1%</text>
+<rect x="0.5" y="0.5" rx="12" ry="12" height="286" width="494" fill="#0d1117" stroke="#30363d"/>
+<text x="25" y="33" class="title">Most Used Languages</text>
+<circle cx="118" cy="145.0" r="62" stroke="#21262d" stroke-width="22"/>
+<circle cx="118" cy="145.0" r="62" stroke="#DA5B0B" stroke-width="22" stroke-linecap="round" stroke-dasharray="246.71 142.85" stroke-dashoffset="249.71" transform="rotate(-90.00 118 145.0)"><animate attributeName="stroke-dashoffset" from="249.71" to="0" dur="0.9s" begin="0.00s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#3572A5" stroke-width="22" stroke-linecap="round" stroke-dasharray="56.99 332.57" stroke-dashoffset="59.99" transform="rotate(140.76 118 145.0)"><animate attributeName="stroke-dashoffset" from="59.99" to="0" dur="0.9s" begin="0.10s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#f1e05a" stroke-width="22" stroke-linecap="round" stroke-dasharray="42.97 346.59" stroke-dashoffset="45.97" transform="rotate(196.20 118 145.0)"><animate attributeName="stroke-dashoffset" from="45.97" to="0" dur="0.9s" begin="0.20s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#563d7c" stroke-width="22" stroke-linecap="round" stroke-dasharray="14.53 375.03" stroke-dashoffset="17.53" transform="rotate(238.68 118 145.0)"><animate attributeName="stroke-dashoffset" from="17.53" to="0" dur="0.9s" begin="0.30s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#b07219" stroke-width="22" stroke-linecap="round" stroke-dasharray="5.57 383.99" stroke-dashoffset="8.57" transform="rotate(254.88 118 145.0)"><animate attributeName="stroke-dashoffset" from="8.57" to="0" dur="0.9s" begin="0.40s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#e34c26" stroke-width="22" stroke-linecap="round" stroke-dasharray="4.01 385.55" stroke-dashoffset="7.01" transform="rotate(262.80 118 145.0)"><animate attributeName="stroke-dashoffset" from="7.01" to="0" dur="0.9s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#ff3670" stroke-width="22" stroke-linecap="round" stroke-dasharray="0.50 389.06" stroke-dashoffset="0.39" transform="rotate(269.28 118 145.0)"><animate attributeName="stroke-dashoffset" from="0.39" to="0" dur="0.9s" begin="0.60s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#384d54" stroke-width="22" stroke-linecap="round" stroke-dasharray="0.50 389.06" stroke-dashoffset="0.39" transform="rotate(269.64 118 145.0)"><animate attributeName="stroke-dashoffset" from="0.39" to="0" dur="0.9s" begin="0.70s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<text x="118" y="142.0" text-anchor="middle" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="20" font-weight="700" fill="#e6edf3">64%</text>
+<text x="118" y="160.0" text-anchor="middle" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="10" fill="#8b949e">Jupyter</text>
+<g class="row" style="animation-delay: 0.20s">
+<circle cx="240" cy="78" r="5.5" fill="#DA5B0B"/>
+<text x="253" y="82" class="lang-name">Jupyter Notebook</text>
+<text x="470" y="82" text-anchor="end" class="lang-pct">64.1%</text>
+</g>
+<g class="row" style="animation-delay: 0.30s">
+<circle cx="240" cy="102" r="5.5" fill="#3572A5"/>
+<text x="253" y="106" class="lang-name">Python</text>
+<text x="470" y="106" text-anchor="end" class="lang-pct">15.4%</text>
+</g>
+<g class="row" style="animation-delay: 0.40s">
+<circle cx="240" cy="126" r="5.5" fill="#f1e05a"/>
+<text x="253" y="130" class="lang-name">JavaScript</text>
+<text x="470" y="130" text-anchor="end" class="lang-pct">11.8%</text>
+</g>
+<g class="row" style="animation-delay: 0.50s">
+<circle cx="240" cy="150" r="5.5" fill="#563d7c"/>
+<text x="253" y="154" class="lang-name">CSS</text>
+<text x="470" y="154" text-anchor="end" class="lang-pct">4.5%</text>
+</g>
+<g class="row" style="animation-delay: 0.60s">
+<circle cx="240" cy="174" r="5.5" fill="#b07219"/>
+<text x="253" y="178" class="lang-name">Java</text>
+<text x="470" y="178" text-anchor="end" class="lang-pct">2.2%</text>
+</g>
+<g class="row" style="animation-delay: 0.70s">
+<circle cx="240" cy="198" r="5.5" fill="#e34c26"/>
+<text x="253" y="202" class="lang-name">HTML</text>
+<text x="470" y="202" text-anchor="end" class="lang-pct">1.8%</text>
+</g>
+<g class="row" style="animation-delay: 0.80s">
+<circle cx="240" cy="222" r="5.5" fill="#ff3670"/>
+<text x="253" y="226" class="lang-name">Mermaid</text>
+<text x="470" y="226" text-anchor="end" class="lang-pct">0.1%</text>
+</g>
+<g class="row" style="animation-delay: 0.90s">
+<circle cx="240" cy="246" r="5.5" fill="#384d54"/>
+<text x="253" y="250" class="lang-name">Dockerfile</text>
+<text x="470" y="250" text-anchor="end" class="lang-pct">0.1%</text>
+</g>
 </svg>
