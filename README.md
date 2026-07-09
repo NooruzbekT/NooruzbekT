@@ -69,8 +69,8 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NooruzbekT&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="GitHub Stats" />
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=NooruzbekT&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
+<img height="200em" src="./stats-card.svg" alt="GitHub Stats" />
+<img height="200em" src="https://github-readme-streak-stats.herokuapp.com/?user=NooruzbekT&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
 
 </div>
 

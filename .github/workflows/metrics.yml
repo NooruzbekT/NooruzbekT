@@ -28,10 +28,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/scripts/generate_stats.py
 
+      - name: Generate overview stats SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/generate_overview.py
+
       - name: Commit and push SVG
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add lang-stats.svg
-          git diff --staged --quiet || git commit -m "Update language stats [skip ci]"
+          git add lang-stats.svg stats-card.svg
+          git diff --staged --quiet || git commit -m "Update stats [skip ci]"
           git push
