@@ -103,27 +103,14 @@
 
 </div>
 
-<!-- TROPHIES -->
-### 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=NooruzbekT&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" width="95%" />
-
-</div>
-
----
-
 <!-- SOCIALS -->
 ### 🌐 Connect with Me
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nooruzbek-toktobaev-77698a256/)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/oldsugar)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nookentoktobaev@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NooruzbekT)
 
-</div>
-
-<div align="center">
-  <sub>⭐️ From <a href="https://github.com/NooruzbekT">NooruzbekT</a></sub>
 </div>
