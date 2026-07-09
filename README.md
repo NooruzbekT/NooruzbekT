@@ -2,7 +2,7 @@
 <div align="center">
 
 <a href="https://github.com/NooruzbekT">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&height=70&lines=Hey+there!+%F0%9F%91%8B+I'm+Nooruzbek;Software+Developer;Python+%7C+Java+%7C+JS+Enthusiast;Always+learning+something+new" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&height=70&lines=Hey+there!+%F0%9F%91%8B+I'm+Nooruzbek;Backend+Developer;ML+%2F+AI+%2F+NLP+Enthusiast;Always+learning+something+new" alt="Typing SVG" />
 </a>
 
 <h3><em>“The only real prison is fear, and the only real freedom is freedom from fear.”</em></h3>
@@ -16,10 +16,10 @@
 <!-- ABOUT ME -->
 ### 🚀 About Me
 
-- 🔭 I'm currently working on **backend & full-stack projects**
+- 🔭 I'm currently focused on **Backend** and **ML (AI / NLP)**
 - 🌱 I'm continuously learning **new technologies and best practices**
-- 💬 Ask me about **Python, Java, JavaScript, Django, Spring**
-- ⚡ Fun fact: *I believe fear is the only real prison*
+- 💬 Ask me about **Python, Java, JavaScript, Django, ML & NLP**
+- ⚡ Fun fact: *as a kid I wanted to become a cardiac surgeon* 😄
 
 ---
 
@@ -44,6 +44,8 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
 **Databases**
 
@@ -58,6 +60,7 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ---
 
