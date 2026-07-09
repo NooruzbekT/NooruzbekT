@@ -87,7 +87,7 @@
 ### 🧩 Most Used Languages
 
 <div align="center">
-  <img src="./lang-stats.svg" alt="Top Languages" />
+  <img src="./lang-stats.svg?v=2" alt="Top Languages" />
 </div>
 
 <!-- CONTRIBUTION SNAKE -->
