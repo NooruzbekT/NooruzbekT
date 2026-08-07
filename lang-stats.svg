@@ -9,45 +9,45 @@
 <rect x="0.5" y="0.5" rx="12" ry="12" height="286" width="494" fill="#0d1117" stroke="#30363d"/>
 <text x="25" y="33" class="title">Most Used Languages</text>
 <circle cx="118" cy="145.0" r="62" stroke="#21262d" stroke-width="22"/>
-<circle cx="118" cy="145.0" r="62" stroke="#DA5B0B" stroke-width="22" stroke-linecap="round" stroke-dasharray="231.10 158.46" stroke-dashoffset="234.10" transform="rotate(-90.00 118 145.0)"><animate attributeName="stroke-dashoffset" from="234.10" to="0" dur="0.9s" begin="0.00s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
-<circle cx="118" cy="145.0" r="62" stroke="#3572A5" stroke-width="22" stroke-linecap="round" stroke-dasharray="74.51 315.05" stroke-dashoffset="77.51" transform="rotate(126.33 118 145.0)"><animate attributeName="stroke-dashoffset" from="77.51" to="0" dur="0.9s" begin="0.10s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
-<circle cx="118" cy="145.0" r="62" stroke="#f1e05a" stroke-width="22" stroke-linecap="round" stroke-dasharray="39.93 349.63" stroke-dashoffset="42.93" transform="rotate(197.96 118 145.0)"><animate attributeName="stroke-dashoffset" from="42.93" to="0" dur="0.9s" begin="0.20s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
-<circle cx="118" cy="145.0" r="62" stroke="#563d7c" stroke-width="22" stroke-linecap="round" stroke-dasharray="14.09 375.47" stroke-dashoffset="17.09" transform="rotate(237.63 118 145.0)"><animate attributeName="stroke-dashoffset" from="17.09" to="0" dur="0.9s" begin="0.30s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
-<circle cx="118" cy="145.0" r="62" stroke="#b07219" stroke-width="22" stroke-linecap="round" stroke-dasharray="5.12 384.44" stroke-dashoffset="8.12" transform="rotate(253.42 118 145.0)"><animate attributeName="stroke-dashoffset" from="8.12" to="0" dur="0.9s" begin="0.40s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
-<circle cx="118" cy="145.0" r="62" stroke="#e34c26" stroke-width="22" stroke-linecap="round" stroke-dasharray="5.08 384.48" stroke-dashoffset="8.08" transform="rotate(260.93 118 145.0)"><animate attributeName="stroke-dashoffset" from="8.08" to="0" dur="0.9s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
-<circle cx="118" cy="145.0" r="62" stroke="#2b7489" stroke-width="22" stroke-linecap="round" stroke-dasharray="0.50 389.06" stroke-dashoffset="1.27" transform="rotate(268.40 118 145.0)"><animate attributeName="stroke-dashoffset" from="1.27" to="0" dur="0.9s" begin="0.60s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
-<circle cx="118" cy="145.0" r="62" stroke="#384d54" stroke-width="22" stroke-linecap="round" stroke-dasharray="0.50 389.06" stroke-dashoffset="0.46" transform="rotate(269.57 118 145.0)"><animate attributeName="stroke-dashoffset" from="0.46" to="0" dur="0.9s" begin="0.70s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#DA5B0B" stroke-width="22" stroke-linecap="round" stroke-dasharray="230.42 159.14" stroke-dashoffset="233.42" transform="rotate(-90.00 118 145.0)"><animate attributeName="stroke-dashoffset" from="233.42" to="0" dur="0.9s" begin="0.00s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#3572A5" stroke-width="22" stroke-linecap="round" stroke-dasharray="81.71 307.85" stroke-dashoffset="84.71" transform="rotate(125.71 118 145.0)"><animate attributeName="stroke-dashoffset" from="84.71" to="0" dur="0.9s" begin="0.10s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#f1e05a" stroke-width="22" stroke-linecap="round" stroke-dasharray="36.30 353.25" stroke-dashoffset="39.30" transform="rotate(203.99 118 145.0)"><animate attributeName="stroke-dashoffset" from="39.30" to="0" dur="0.9s" begin="0.20s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#563d7c" stroke-width="22" stroke-linecap="round" stroke-dasharray="12.65 376.91" stroke-dashoffset="15.65" transform="rotate(240.31 118 145.0)"><animate attributeName="stroke-dashoffset" from="15.65" to="0" dur="0.9s" begin="0.30s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#b07219" stroke-width="22" stroke-linecap="round" stroke-dasharray="4.44 385.12" stroke-dashoffset="7.44" transform="rotate(254.77 118 145.0)"><animate attributeName="stroke-dashoffset" from="7.44" to="0" dur="0.9s" begin="0.40s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#e34c26" stroke-width="22" stroke-linecap="round" stroke-dasharray="4.40 385.16" stroke-dashoffset="7.40" transform="rotate(261.64 118 145.0)"><animate attributeName="stroke-dashoffset" from="7.40" to="0" dur="0.9s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#2b7489" stroke-width="22" stroke-linecap="round" stroke-dasharray="0.50 389.06" stroke-dashoffset="1.16" transform="rotate(268.48 118 145.0)"><animate attributeName="stroke-dashoffset" from="1.16" to="0" dur="0.9s" begin="0.60s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
+<circle cx="118" cy="145.0" r="62" stroke="#384d54" stroke-width="22" stroke-linecap="round" stroke-dasharray="0.50 389.06" stroke-dashoffset="0.48" transform="rotate(269.56 118 145.0)"><animate attributeName="stroke-dashoffset" from="0.48" to="0" dur="0.9s" begin="0.70s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/></circle>
 <text x="118" y="142.0" text-anchor="middle" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="20" font-weight="700" fill="#e6edf3">60%</text>
 <text x="118" y="160.0" text-anchor="middle" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="10" fill="#8b949e">Jupyter</text>
 <g class="row" style="animation-delay: 0.20s">
 <circle cx="240" cy="78" r="5.5" fill="#DA5B0B"/>
 <text x="253" y="82" class="lang-name">Jupyter Notebook</text>
-<text x="470" y="82" text-anchor="end" class="lang-pct">60.1%</text>
+<text x="470" y="82" text-anchor="end" class="lang-pct">59.9%</text>
 </g>
 <g class="row" style="animation-delay: 0.30s">
 <circle cx="240" cy="102" r="5.5" fill="#3572A5"/>
 <text x="253" y="106" class="lang-name">Python</text>
-<text x="470" y="106" text-anchor="end" class="lang-pct">19.9%</text>
+<text x="470" y="106" text-anchor="end" class="lang-pct">21.7%</text>
 </g>
 <g class="row" style="animation-delay: 0.40s">
 <circle cx="240" cy="126" r="5.5" fill="#f1e05a"/>
 <text x="253" y="130" class="lang-name">JavaScript</text>
-<text x="470" y="130" text-anchor="end" class="lang-pct">11.0%</text>
+<text x="470" y="130" text-anchor="end" class="lang-pct">10.1%</text>
 </g>
 <g class="row" style="animation-delay: 0.50s">
 <circle cx="240" cy="150" r="5.5" fill="#563d7c"/>
 <text x="253" y="154" class="lang-name">CSS</text>
-<text x="470" y="154" text-anchor="end" class="lang-pct">4.4%</text>
+<text x="470" y="154" text-anchor="end" class="lang-pct">4.0%</text>
 </g>
 <g class="row" style="animation-delay: 0.60s">
 <circle cx="240" cy="174" r="5.5" fill="#b07219"/>
 <text x="253" y="178" class="lang-name">Java</text>
-<text x="470" y="178" text-anchor="end" class="lang-pct">2.1%</text>
+<text x="470" y="178" text-anchor="end" class="lang-pct">1.9%</text>
 </g>
 <g class="row" style="animation-delay: 0.70s">
 <circle cx="240" cy="198" r="5.5" fill="#e34c26"/>
 <text x="253" y="202" class="lang-name">HTML</text>
-<text x="470" y="202" text-anchor="end" class="lang-pct">2.1%</text>
+<text x="470" y="202" text-anchor="end" class="lang-pct">1.9%</text>
 </g>
 <g class="row" style="animation-delay: 0.80s">
 <circle cx="240" cy="222" r="5.5" fill="#2b7489"/>
