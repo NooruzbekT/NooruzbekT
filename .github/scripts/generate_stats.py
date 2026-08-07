@@ -1,5 +1,8 @@
 import os
+import time
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from collections import defaultdict
 
 LANGUAGE_COLORS = {
@@ -22,7 +25,6 @@ LANGUAGE_COLORS = {
     'Jupyter Notebook': '#DA5B0B',
     'Dockerfile': '#384d54',
     'Mermaid': '#ff3670',
-    'CSS': '#563d7c',
     'SCSS': '#c6538c',
     'Vue': '#41b883',
     'default': '#8f8f8f'
@@ -30,6 +32,28 @@ LANGUAGE_COLORS = {
 
 def get_color(lang):
     return LANGUAGE_COLORS.get(lang, LANGUAGE_COLORS['default'])
+
+def make_session():
+    session = requests.Session()
+    retry = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504])
+    session.mount('https://', HTTPAdapter(max_retries=retry))
+    return session
+
+def api_get(session, url, headers):
+    for attempt in range(3):
+        try:
+            r = session.get(url, headers=headers, timeout=15)
+            if r.status_code == 200:
+                return r.json()
+            if r.status_code == 429:
+                time.sleep(5 * (attempt + 1))
+        except requests.exceptions.Timeout:
+            print(f"Timeout on {url}, attempt {attempt + 1}")
+            time.sleep(3)
+        except requests.exceptions.RequestException as e:
+            print(f"Error: {e}")
+            time.sleep(3)
+    return None
 
 def generate_svg(lang_data):
     import math
@@ -41,13 +65,11 @@ def generate_svg(lang_data):
     padding = 25
     title_h = 52
 
-    # Donut geometry (left side)
     cx, r, sw = 118, 62, 22
     donut_cy = title_h + 20 + r + sw / 2
     circ = 2 * math.pi * r
-    gap = 3  # visual gap between segments (in path units)
+    gap = 3
 
-    # Legend geometry (right side)
     legend_x = 235
     legend_top = title_h + 18
     row_h = 24
@@ -71,18 +93,16 @@ def generate_svg(lang_data):
         f'<text x="{padding}" y="33" class="title">Most Used Languages</text>',
     ]
 
-    # Background ring
     lines.append(
         f'<circle cx="{cx}" cy="{donut_cy:.1f}" r="{r}" stroke="#21262d" stroke-width="{sw}"/>'
     )
 
-    # Donut segments with draw-in animation
     cumulative = 0.0
     for i, (lang, val) in enumerate(top):
         frac = val / total
         seg = frac * circ
         dash = max(0.5, seg - gap)
-        rot = cumulative * 360 - 90  # start at top, clockwise
+        rot = cumulative * 360 - 90
         lines.append(
             f'<circle cx="{cx}" cy="{donut_cy:.1f}" r="{r}" stroke="{get_color(lang)}" '
             f'stroke-width="{sw}" stroke-linecap="round" '
@@ -95,7 +115,6 @@ def generate_svg(lang_data):
         )
         cumulative += frac
 
-    # Center label: top language percentage
     top_pct = top[0][1] / total * 100 if top else 0
     lines.append(
         f'<text x="{cx}" y="{donut_cy - 3:.1f}" text-anchor="middle" '
@@ -108,7 +127,6 @@ def generate_svg(lang_data):
         f'{(top[0][0].split()[0] if len(top[0][0]) > 11 else top[0][0]) if top else ""}</text>'
     )
 
-    # Legend rows
     y = legend_top + 12
     for i, (lang, val) in enumerate(top):
         pct = val / total * 100
@@ -134,14 +152,11 @@ def main():
         'Accept': 'application/vnd.github.v3+json'
     }
 
-    # Fetch all non-fork repos
+    session = make_session()
+
     repos, page = [], 1
     while True:
-        r = requests.get(
-            f'https://api.github.com/users/{username}/repos?per_page=100&page={page}',
-            headers=headers
-        )
-        data = r.json()
+        data = api_get(session, f'https://api.github.com/users/{username}/repos?per_page=100&page={page}', headers)
         if not isinstance(data, list) or not data:
             break
         repos.extend([repo for repo in data if not repo.get('fork')])
@@ -149,16 +164,13 @@ def main():
             break
         page += 1
 
-    # Aggregate language bytes across all repos
     lang_bytes = defaultdict(int)
     for repo in repos:
-        r = requests.get(
-            f'https://api.github.com/repos/{username}/{repo["name"]}/languages',
-            headers=headers
-        )
-        if r.status_code == 200:
-            for lang, count in r.json().items():
+        data = api_get(session, f'https://api.github.com/repos/{username}/{repo["name"]}/languages', headers)
+        if data:
+            for lang, count in data.items():
                 lang_bytes[lang] += count
+        time.sleep(0.1)
 
     if not lang_bytes:
         print("No language data found")
